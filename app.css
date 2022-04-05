@@ -10,17 +10,17 @@ h1,
 h4,
 a,
 button {
-  letter-spacing: 5px;
+  letter-spacing: 6px;
 }
 
 a {
   text-decoration: none;
-  font-weight:bold;
+  font-weight: bold;
   font-size: large;
   padding-left: 13px;
 }
 
-h4{
+h4 {
   color: #2b5cfc;
   font-size: 1rem;
   font-weight: bold;
@@ -44,10 +44,10 @@ h4{
   z-index: 15;
   top: 46%;
   left: 54%;
-  margin: -50px 0 0 -300px;
+  margin: -40px 0 0 -330px;
 }
 
-span{
+span {
   color: #2b5cfc;
 }
 
@@ -62,7 +62,7 @@ div h1 {
 }
 
 .center button {
-  margin-left: 180px;
+  margin-left: 190px;
   padding: 10px 20px 10px 20px;
   font-size: 20px;
   border-radius: 10px;
@@ -70,7 +70,7 @@ div h1 {
   cursor: pointer;
 }
 
-.center button:hover{
+.center button:hover {
   background-color: black;
   color: white;
 }
