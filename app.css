@@ -6,6 +6,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  transition: all 0.2s linear;
+}
+
 h1,
 h4,
 a,
@@ -21,8 +25,8 @@ a {
   color: black;
 }
 
-a:hover{
-  color:#2b5cfc;
+a:hover {
+  color: #2b5cfc;
 }
 
 h4 {
@@ -54,7 +58,7 @@ span {
 }
 
 div h1 {
-  font-size: 43px;
+  font-size: 40px;
   background: rgba(14, 13, 13, 0.945);
   border: 1px solid black;
   border-radius: 10px;
@@ -70,7 +74,8 @@ div h1 {
   border-radius: 10px;
   border: 3px solid black;
   cursor: pointer;
-  background: transparent
+  background: transparent;
+  transition: all 0.3s linear;
 }
 
 .center button:hover {
