@@ -7,6 +7,7 @@ btn.addEventListener('click', () => {
     let hexColor = '#';
 
     for (let i = 0; i < 6; i++) {
+        console.log(getRandomHex());
         hexColor += hexadecimal[getRandomHex()];
     }
     console.log(hexColor);
@@ -19,5 +20,3 @@ btn.addEventListener('click', () => {
 function getRandomHex() {
     return Math.floor(Math.random() * hexadecimal.length);
 }
-
-
